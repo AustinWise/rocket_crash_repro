@@ -23,6 +23,17 @@ instruction. Register `X8` is `0x38`. Since the [ArcInner struct](https://github
 stores data inline, this implies that the [ptr field in Arc](https://github.com/rust-lang/rust/blob/1.58.1/library/alloc/src/sync.rs#L236)
 was null.
 
+## Environment
+
+Note that the software is being built on a x64 System and run on an ARM64 VM.
+
+|Software|Version|
+|--|--|
+|Rust|1.58.1|
+|MSVC|14.30.30705|
+|Windows Host (in VM)|Windows 11 (10.0.22000.434)|
+|HyperVisor|Parallels|
+|HyperVisor Host|M1 Mac Mini with macos 12.1|
 
 
 ## Stack Trace
