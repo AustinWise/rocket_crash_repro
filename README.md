@@ -35,6 +35,9 @@ Note that the software is being built on a x64 System and run on an ARM64 VM.
 |HyperVisor|Parallels|
 |HyperVisor Host|M1 Mac Mini with macos 12.1|
 
+See [this article](https://docs.microsoft.com/en-us/windows/win32/wer/collecting-user-mode-dumps)
+for information about how to collect crash dumps on Windows.
+
 
 ## Stack Trace
 
